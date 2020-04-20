@@ -1,0 +1,271 @@
+<div>
+    <br>
+    <h1 style="text-align: center;" class="text-success">Today Currency Rate</h1>
+    <br>
+    <h3 style="text-align: center;color: rebeccapurple;">Base on 1 {{ rate.base }}</h3>
+    <h4 style="text-align: center;">Time Zone : {{ rate.time_zone }}</h4>
+    <br><br>
+    <div class="col-md-12" >
+        <table style="width: 100%;" class="table table-striped">
+            <thead class="thead-dark">
+            <tr>
+                <th>Currency Code</th>
+                <th>Country Name</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+            <tbody>
+            <tr>
+                <td>India</td>
+                <td>INR</td>
+                <td>{{ rate.conversion_rates.INR }}</td>
+            </tr>
+            <tr>
+                <td>United Arab Emirates</td>
+                <td>AED</td>
+                <td>{{ rate.conversion_rates.AED }}</td>
+            </tr>
+            <tr>
+                <td>Saudi Arabia</td>
+                <td>ARS</td>
+                <td>{{ rate.conversion_rates.ARS }}</td>
+            </tr>
+            <tr>
+                <td>Australia</td>
+                <td>AUS</td>
+                <td>{{ rate.conversion_rates.AUD }}</td>
+            </tr>
+            <tr>
+                <td>Bulgaria</td>
+                <td>BGN</td>
+                <td>{{ rate.conversion_rates.BGN }}</td>
+            </tr>
+            <tr>
+                <td>Brazil</td>
+                <td>BRL</td>
+                <td>{{ rate.conversion_rates.BRL }}</td>
+            </tr>
+            <tr>
+                <td>The Bahamas</td>
+                <td>BSD</td>
+                <td>{{ rate.conversion_rates.BSD }}</td>
+            </tr>
+            <tr>
+                <td>Canada</td>
+                <td>CAD</td>
+                <td>{{ rate.conversion_rates.CAD }}</td>
+            </tr>
+            <tr>
+                <td>Switzerland</td>
+                <td>CHF</td>
+                <td>{{ rate.conversion_rates.CHF }}</td>
+            </tr>
+            <tr>
+                <td>Chile</td>
+                <td>CLP</td>
+                <td>{{ rate.conversion_rates.CLP }}</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>CNY</td>
+                <td>{{ rate.conversion_rates.CNY }}</td>
+            </tr>
+            <tr>
+                <td>Colombia</td>
+                <td>COP</td>
+                <td>{{ rate.conversion_rates.COP }}</td>
+            </tr>
+            <tr>
+                <td>Czechia</td>
+                <td>CZK</td>
+                <td>{{ rate.conversion_rates.CZK }}</td>
+            </tr>
+            <tr>
+                <td>Denmark</td>
+                <td>DKK</td>
+                <td>{{ rate.conversion_rates.DKK }}</td>
+            </tr>
+            <tr>
+                <td>Dominican Republic</td>
+                <td>DOP</td>
+                <td>{{ rate.conversion_rates.DOP }}</td>
+            </tr>
+            <tr>
+                <td>Egypt</td>
+                <td>EGP</td>
+                <td>{{ rate.conversion_rates.EGP }}</td>
+            </tr>
+            <tr>
+                <td>European Countries</td>
+                <td>EUR</td>
+                <td>{{ rate.conversion_rates.EUR }}</td>
+            </tr>
+            <tr>
+                <td>Fiji</td>
+                <td>FJD</td>
+                <td>{{ rate.conversion_rates.FJD }}</td>
+            </tr>
+            <tr>
+                <td>United Kingdom</td>
+                <td>GBP</td>
+                <td>{{ rate.conversion_rates.GBP }}</td>
+            </tr>
+            <tr>
+                <td>Guatemala</td>
+                <td>GTQ</td>
+                <td>{{ rate.conversion_rates.GTQ }}</td>
+            </tr>
+            <tr>
+                <td>Hong Kong</td>
+                <td>HKD</td>
+                <td>{{ rate.conversion_rates.HKD }}</td>
+            </tr>
+            <tr>
+                <td>Croatia</td>
+                <td>HRK</td>
+                <td>{{ rate.conversion_rates.HRK }}</td>
+            </tr>
+            <tr>
+                <td>Hungary</td>
+                <td>HUF</td>
+                <td>{{ rate.conversion_rates.HUF }}</td>
+            </tr>
+            <tr>
+                <td>Indonesia</td>
+                <td>IDR</td>
+                <td>{{ rate.conversion_rates.IDR }}</td>
+            </tr>
+            <tr>
+                <td>Israel</td>
+                <td>ILS</td>
+                <td>{{ rate.conversion_rates.ILS }}</td>
+            </tr>
+            <tr>
+                <td>Iceland</td>
+                <td>ISK</td>
+                <td>{{ rate.conversion_rates.ISK }}</td>
+            </tr>
+            <tr>
+                <td>Japan</td>
+                <td>JPY</td>
+                <td>{{ rate.conversion_rates.JPY }}</td>
+            </tr>
+            <tr>
+                <td>South Korea</td>
+                <td>KRW</td>
+                <td>{{ rate.conversion_rates.KRW }}</td>
+            </tr>
+            <tr>
+                <td>Kazakhstan</td>
+                <td>KZT</td>
+                <td>{{ rate.conversion_rates.KZT }}</td>
+            </tr>
+            <tr>
+                <td>Mexico</td>
+                <td>MXN</td>
+                <td>{{ rate.conversion_rates.MXN }}</td>
+            </tr>
+            <tr>
+                <td>Malaysia</td>
+                <td>MYR</td>
+                <td>{{ rate.conversion_rates.MYR }}</td>
+            </tr>
+            <tr>
+                <td>Norway</td>
+                <td>NOK</td>
+                <td>{{ rate.conversion_rates.NOK }}</td>
+            </tr>
+            <tr>
+                <td>Czechia</td>
+                <td>NZD</td>
+                <td>{{ rate.conversion_rates.NZD }}</td>
+            </tr>
+            <tr>
+                <td>Panama</td>
+                <td>PAB</td>
+                <td>{{ rate.conversion_rates.PAB }}</td>
+            </tr>
+            <tr>
+                <td>Peru</td>
+                <td>PEN</td>
+                <td>{{ rate.conversion_rates.PEN }}</td>
+            </tr>
+            <tr>
+                <td>Philippines</td>
+                <td>PHP</td>
+                <td>{{ rate.conversion_rates.PHP }}</td>
+            </tr>
+            <tr>
+                <td>Pakistan</td>
+                <td>PKR</td>
+                <td>{{ rate.conversion_rates.PKR }}</td>
+            </tr>
+            <tr>
+                <td>Poland</td>
+                <td>PLN</td>
+                <td>{{ rate.conversion_rates.PLN }}</td>
+            </tr>
+            <tr>
+                <td>Paraguay</td>
+                <td>PYG</td>
+                <td>{{ rate.conversion_rates.PYG }}</td>
+            </tr>
+            <tr>
+                <td>Romaniya</td>
+                <td>RON</td>
+                <td>{{ rate.conversion_rates.RON }}</td>
+            </tr>
+            <tr>
+                <td>Russia</td>
+                <td>RUB</td>
+                <td>{{ rate.conversion_rates.RUB }}</td>
+            </tr>
+            <tr>
+                <td>Saudi Arabia</td>
+                <td>SAR</td>
+                <td>{{ rate.conversion_rates.SAR }}</td>
+            </tr>
+            <tr>
+                <td>Sweden</td>
+                <td>SEK</td>
+                <td>{{ rate.conversion_rates.SEK }}</td>
+            </tr>
+            <tr>
+                <td>Singapore</td>
+                <td>SGD</td>
+                <td>{{ rate.conversion_rates.SGD }}</td>
+            </tr>
+            <tr>
+                <td>Thailand</td>
+                <td>THB</td>
+                <td>{{ rate.conversion_rates.THB }}</td>
+            </tr>
+            <tr>
+                <td>Turkey</td>
+                <td>TRY</td>
+                <td>{{ rate.conversion_rates.TRY }}</td>
+            </tr>
+            <tr>
+                <td>Taiwan</td>
+                <td>TWD</td>
+                <td>{{ rate.conversion_rates.TWD }}</td>
+            </tr>
+            <tr>
+                <td>Ukraine</td>
+                <td>UAH</td>
+                <td>{{ rate.conversion_rates.UAH }}</td>
+            </tr>
+            <tr>
+                <td>Uruguay</td>
+                <td>UYU</td>
+                <td>{{ rate.conversion_rates.UYU }}</td>
+            </tr>
+            <tr>
+                <td>Zimbabwe</td>
+                <td>ZAR</td>
+                <td>{{ rate.conversion_rates.ZAR }}</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+</div>
